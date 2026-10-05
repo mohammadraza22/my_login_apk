@@ -12,7 +12,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y openjdk-17-jdk python3-pip build-essential git python3 python3-dev libffi-dev libssl-dev libjpeg-dev zlib1g-dev libfreetype6-dev libpng-dev automake libtool autoconf libtinfo5
+        sudo apt-get install -y openjdk-17-jdk python3-pip build-essential git python3 python3-dev libffi-dev libssl-dev libjpeg-dev zlib1g-dev libfreetype6-dev libpng-dev automake libtool autoconf
     - name: Install Buildozer
       run: |
         pip install --upgrade pip
